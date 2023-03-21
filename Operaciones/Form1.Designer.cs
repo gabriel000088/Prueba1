@@ -35,11 +35,11 @@ namespace Operaciones
             this.ingresar_Num2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.txt_resultado = new System.Windows.Forms.Label();
             this.text_signo = new System.Windows.Forms.Label();
             this.ingresar_Num1 = new System.Windows.Forms.TextBox();
             this.txt_signoIgual = new System.Windows.Forms.Label();
             this.Boton_Limpiar = new System.Windows.Forms.Button();
+            this.txt_resultado = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // boton_Calcular
@@ -48,7 +48,7 @@ namespace Operaciones
             this.boton_Calcular.Cursor = System.Windows.Forms.Cursors.Hand;
             this.boton_Calcular.Font = new System.Drawing.Font("Lucida Handwriting", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.boton_Calcular.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.boton_Calcular.Location = new System.Drawing.Point(251, 293);
+            this.boton_Calcular.Location = new System.Drawing.Point(255, 312);
             this.boton_Calcular.Name = "boton_Calcular";
             this.boton_Calcular.Size = new System.Drawing.Size(207, 42);
             this.boton_Calcular.TabIndex = 0;
@@ -95,17 +95,6 @@ namespace Operaciones
             this.label2.TabIndex = 8;
             this.label2.Text = "Segundo Numero";
             // 
-            // txt_resultado
-            // 
-            this.txt_resultado.AutoSize = true;
-            this.txt_resultado.Font = new System.Drawing.Font("Brush Script MT", 24F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_resultado.Location = new System.Drawing.Point(489, 153);
-            this.txt_resultado.Name = "txt_resultado";
-            this.txt_resultado.Size = new System.Drawing.Size(81, 39);
-            this.txt_resultado.TabIndex = 9;
-            this.txt_resultado.Text = "----";
-            this.txt_resultado.Click += new System.EventHandler(this.label3_Click);
-            // 
             // text_signo
             // 
             this.text_signo.AutoSize = true;
@@ -139,13 +128,24 @@ namespace Operaciones
             this.Boton_Limpiar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Boton_Limpiar.Font = new System.Drawing.Font("Lucida Handwriting", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Boton_Limpiar.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.Boton_Limpiar.Location = new System.Drawing.Point(581, 387);
+            this.Boton_Limpiar.Location = new System.Drawing.Point(609, 361);
             this.Boton_Limpiar.Name = "Boton_Limpiar";
-            this.Boton_Limpiar.Size = new System.Drawing.Size(207, 42);
+            this.Boton_Limpiar.Size = new System.Drawing.Size(149, 65);
             this.Boton_Limpiar.TabIndex = 13;
-            this.Boton_Limpiar.Text = "Limpiar";
+            this.Boton_Limpiar.Text = "Limpiar Todo";
             this.Boton_Limpiar.UseVisualStyleBackColor = false;
             this.Boton_Limpiar.Click += new System.EventHandler(this.Boton_Limpiar_Click);
+            // 
+            // txt_resultado
+            // 
+            this.txt_resultado.AutoSize = true;
+            this.txt_resultado.Font = new System.Drawing.Font("Brush Script MT", 24F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_resultado.Location = new System.Drawing.Point(489, 153);
+            this.txt_resultado.Name = "txt_resultado";
+            this.txt_resultado.Size = new System.Drawing.Size(81, 39);
+            this.txt_resultado.TabIndex = 9;
+            this.txt_resultado.Text = "----";
+            this.txt_resultado.Click += new System.EventHandler(this.label3_Click);
             // 
             // Operaciones
             // 
@@ -182,11 +182,11 @@ namespace Operaciones
         private System.Windows.Forms.TextBox ingresar_Num2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label txt_resultado;
         private System.Windows.Forms.Label text_signo;
         private System.Windows.Forms.TextBox ingresar_Num1;
         private System.Windows.Forms.Label txt_signoIgual;
         private System.Windows.Forms.Button Boton_Limpiar;
+        private System.Windows.Forms.Label txt_resultado;
     }
 }
 
