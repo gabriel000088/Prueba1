@@ -1,0 +1,11 @@
+E:\VisualCode\Operaciones\Operaciones\bin\Debug\Operaciones.exe.config
+E:\VisualCode\Operaciones\Operaciones\bin\Debug\Operaciones.exe
+E:\VisualCode\Operaciones\Operaciones\bin\Debug\Operaciones.pdb
+E:\VisualCode\Operaciones\Operaciones\obj\Debug\Operaciones.csproj.AssemblyReference.cache
+E:\VisualCode\Operaciones\Operaciones\obj\Debug\Operaciones.csproj.SuggestedBindingRedirects.cache
+E:\VisualCode\Operaciones\Operaciones\obj\Debug\Operaciones.Operaciones.resources
+E:\VisualCode\Operaciones\Operaciones\obj\Debug\Operaciones.Properties.Resources.resources
+E:\VisualCode\Operaciones\Operaciones\obj\Debug\Operaciones.csproj.GenerateResource.cache
+E:\VisualCode\Operaciones\Operaciones\obj\Debug\Operaciones.csproj.CoreCompileInputs.cache
+E:\VisualCode\Operaciones\Operaciones\obj\Debug\Operaciones.exe
+E:\VisualCode\Operaciones\Operaciones\obj\Debug\Operaciones.pdb
