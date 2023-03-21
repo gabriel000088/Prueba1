@@ -36,7 +36,7 @@ namespace Operaciones
         private void Boton_Limpiar_Click(object sender, EventArgs e)
         {
             ingresar_Num1.Text = " ";
-            ingresar_Num2.Text = " ";
+            ingresar_Num2.Text = " hola ";
             txt_resultado.Text = " ";
         }
     }
